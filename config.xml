@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="tw.edu.extraordinary" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<!-- versionCode is optional and Android only -->
+  <name>簡單非凡</name>
+  <description>
+  簡單卻非凡
+  </description>
+  <author href="https://www.nfu.edu.tw/zh/" email="40541450@nfu.edu.tw">
+      Chu-Rou Chen
+  </author>
+  <content src="index.html" />
+  <platform name="android">
+    <icon src="res/coffee-beans.png" />
+    <icon src="res/coffee-beans.png" density="ldpi" />
+    <icon src="res/coffee-beans.png" density="mdpi" />
+    <icon src="res/coffee-beans.png" density="hdpi" />
+    <icon src="res/coffee-beans.png" density="xhdpi" />
+  </platform>
+</widget>

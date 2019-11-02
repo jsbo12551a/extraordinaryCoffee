@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>簡單非凡</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/jquwey.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <script src="js/aos.js"></script>
+  </head>
+  <style></style>
+
+  <body>
+    <div data-role="page" id="demo-page" data-url="demo-page">
+      <div data-role="header" style="background:rgb(90, 38, 5);" data-theme="b">
+        <!-- <a href="#" data-role="button" data-rel="back" style=" margin-top: 1.1em;">返回</a> -->
+        <h1 style="font-size: 24px; color:white;">簡單非凡</h1>
+        <a
+          href="#left-panel"
+          data-icon="carat-r"
+          data-iconpos="notext"
+          data-shadow="false"
+          data-iconshadow="false"
+          class="ui-nodisc-icon"
+          style="background-color: rgb(170, 77, 19); margin-top: 1.1em;"
+          >Open left panel</a
+        >
+      </div>
+      <!-- /header -->
+      <!-- /content -->
+      <div
+        data-role="panel"
+        id="left-panel"
+        data-theme="b"
+        style="background-color: rgb(170, 77, 19)"
+      >
+        <h3>簡單非凡</h3>
+        <ul data-role="listview" class="listview" style="margin-top: 10px; ">
+          <li><a style="background-color: rgb(170, 77, 19);" href="index.html">首頁</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="about.html">關於</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="coffee.html">咖啡</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="menu.html">菜單</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="contact.html">聯繫</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="reservation.html">預約</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="position.html">位置</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="news.html">最新消息</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="PublicWelfare.html">公益</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="partner.html">夥伴招募</a></li>
+        </ul>
+        <a
+          href="#"
+          data-rel="close"
+          class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-right"
+          style="background-color: rgb(121, 55, 14)"
+          >關閉</a
+        >
+      </div>
+      <div role="main" class="ui-content">
+        <div class="ui-body ui-body-a ui-corner-all about">
+          <h2>預定餐桌</h2>
+          <img src="images/C1.jpg" alt="" />
+
+          <form style="margin-top: 20px;">
+            <label for="text-enhanced">聯繫大名:</label>
+            <div
+              class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"
+            >
+              <input
+                type="text"
+                data-enhanced="true"
+                data-clear-btn="true"
+                name="text-enhanced"
+                id="text-enhanced"
+                placeholder="請輸入您的名稱"
+              />
+            </div>
+
+            <label for="text-enhanced2">聯繫電話:</label>
+            <div
+              class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"
+            >
+              <input
+                type="tel"
+                data-enhanced="true"
+                data-clear-btn="true"
+                name="text-enhanced2"
+                id="text-enhanced2"
+                placeholder="請輸入您的電話"
+              />
+            </div>
+
+            <label for="text-enhanced3">人數:</label>
+            <div
+              class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"
+            >
+              <input
+                type="number"
+                data-enhanced="true"
+                data-clear-btn="true"
+                name="text-enhanced3"
+                id="text-enhanced3"
+                placeholder="請輸入人數"
+              />
+            </div>
+            <label for="text-enhanced4">時間:</label>
+            <div
+              class="ui-input-text ui-body-inherit ui-corner-all ui-shadow-inset ui-input-has-clear"
+            >
+              <input
+                type="data"
+                data-enhanced="true"
+                data-clear-btn="true"
+                name="text-enhanced4"
+                id="text-enhanced4"
+                placeholder="請輸入日期時間"
+              />
+            </div>
+
+            <input type="submit" value="送出" />
+          </form>
+          <p style="text-align: center;">
+            如有疑問歡迎您撥打客服專線或來信至客服信箱
+          </p>
+          <p style="text-align: center;">
+            客服專線:00-0000000
+          </p>
+          <p style="text-align: center;">
+            信箱:aa123.gmail.com
+          </p>
+        </div>
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer" style="background-color: rgb(90, 38, 5);">
+        <h4 style="color: #fff;">Copyright © 2019 簡單非凡 All Rights Reserved.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>

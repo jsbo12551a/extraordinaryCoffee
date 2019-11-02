@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>簡單非凡</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/jquwey.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <script src="js/aos.js"></script>
+  </head>
+  <style></style>
+
+  <body>
+    <div data-role="page" id="demo-page" data-url="demo-page">
+      <div data-role="header" style="background:rgb(90, 38, 5);" data-theme="b">
+        <!-- <a href="#" data-role="button" data-rel="back" style=" margin-top: 1.1em;">返回</a> -->
+        <h1 style="font-size: 24px; color:white;">簡單非凡</h1>
+        <a
+          href="#left-panel"
+          data-icon="carat-r"
+          data-iconpos="notext"
+          data-shadow="false"
+          data-iconshadow="false"
+          class="ui-nodisc-icon"
+          style="background-color: rgb(170, 77, 19); margin-top: 1.1em;"
+          >Open left panel</a
+        >
+      </div>
+      <!-- /header -->
+      <!-- /content -->
+      <div
+        data-role="panel"
+        id="left-panel"
+        data-theme="b"
+        style="background-color: rgb(170, 77, 19)"
+      >
+        <h3>簡單非凡</h3>
+        <ul data-role="listview" class="listview" style="margin-top: 10px; ">
+          <li><a style="background-color: rgb(170, 77, 19);" href="index.html">首頁</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="about.html">關於</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="coffee.html">咖啡</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="menu.html">菜單</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="contact.html">聯繫</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="reservation.html">預約</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="position.html">位置</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="news.html">最新消息</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="PublicWelfare.html">公益</a></li>
+          <li><a style="background-color: rgb(170, 77, 19);" href="partner.html">夥伴招募</a></li>
+        </ul>
+        <a
+          href="#"
+          data-rel="close"
+          class="ui-btn ui-corner-all ui-shadow ui-mini ui-btn-inline ui-icon-delete ui-btn-icon-left ui-btn-right"
+          style="background-color: rgb(121, 55, 14)"
+          >關閉</a
+        >
+      </div>
+      <div role="main" class="ui-content" data-aos="fade-down">
+        <div class="ui-body ui-body-a ui-corner-all about">
+          <h2>看似簡單，確實非凡</h2>
+          <img src="images/coffee.jpg" alt="about" />
+          <h3>堅持</h3>
+          <p>
+            選一個舒適座位，點一份咖啡輕食。有餐的好咖啡館，有好咖啡的餐館，一個「簡單的想法」。堅持新鮮烘焙、餐點現點現做。用食的品味分享及專注生活態度，以簡單卻非凡的方式，演繹這名為「夢想」的故事。
+          </p>
+          <p>
+            Not only are all the coffee beans home-roasting, but also all the meals are freshly made
+            right after your order. While fulfilling our dream founding Café, we share our lifestyle
+            with taste.
+          </p>
+        </div>
+      </div>
+      <!-- /content -->
+
+      <div data-role="footer" style="background-color: rgb(90, 38, 5);">
+        <h4 style="color: #fff;">Copyright © 2019 簡單非凡 All Rights Reserved.</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
+  <script>
+    AOS.init();
+  </script>
+</html>

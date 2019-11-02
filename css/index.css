@@ -1,0 +1,151 @@
+* {
+  font-family: Microsoft JhengHei;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  width: 100%;
+}
+.mask {
+  background: url('../images/coffee01.jpg') no-repeat top center;
+  background-size: cover;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+.icom {
+  width: 100%;
+  height: 100px;
+}
+/* Swipe works with mouse as well but often causes text selection. */
+/* We'll deny text selecton on everything but INPUTs and TEXTAREAs. */
+#demo-page :not(input):not(textarea) {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+}
+/* Content styling. */
+dl {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1em;
+}
+dt {
+  font-size: 2em;
+  font-weight: bold;
+}
+dt span {
+  font-size: 0.5em;
+  color: #777;
+  margin-left: 0.5em;
+}
+dd {
+  font-size: 1.25em;
+  margin: 1em 0 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+.back-btn {
+  float: right;
+  margin: 0 2em 1em 0;
+}
+
+/* index */
+.mask_about {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/633/633652.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/633/633652.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_coffee {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/227/227125.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/227/227125.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_menu {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/1046/1046849.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/1046/1046849.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_contact {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/1034/1034146.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/1034/1034146.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_reservation {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/263/263137.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/263/263137.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.mask_position {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/149/149442.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/149/149442.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_news {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/962/962851.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/962/962851.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_PublicWelfare {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/478/478533.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/478/478533.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.mask_partner {
+  -webkit-mask: url('https://image.flaticon.com/icons/svg/1401/1401914.svg') no-repeat center center;
+  mask: url('https://image.flaticon.com/icons/svg/1401/1401914.svg') no-repeat center center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+/* about  */
+.about img {
+  width: 100%;
+}
+.about h2 {
+  text-align: center;
+}
+.list_a {
+  background-color: rgb(170, 77, 19);
+}
+
+/* coffee */
+.coffee img {
+  width: 100%;
+}
+.coffeeItem {
+  text-align: center;
+}
+.coffeeItem h3 {
+  padding: 10px 0;
+}
+.coffeeItem img {
+  width: 100%;
+}
+
+/* menu */
+.menu img {
+  width: 100%;
+}
+
+/* news */
+.news1Img {
+  width: 100%;
+  padding: 20px 0;
+}
